@@ -21,9 +21,10 @@ public class StoneMasonKarel extends SuperKarel {
 	}
 
 /*
- * fixColumn() should be used only after Karel has moved to the bottom
+ * fixColumn() should be used at the start or after Karel has moved to the bottom
  * of a column. Once in place, he checks to see if a beeper is missing.
- * If one is, he replaces it. If one is not, he skips ahead until done
+ * If one is, he replaces it. If one is not, he turns left and then replaces missing 
+ * beacons until he reaches the top.
  */
 
 private void fixColumn() {
@@ -41,8 +42,8 @@ private void fixColumn() {
 }	
 /*
  * returnToBottom() moves Karel back to the bottom of a column after
- * fixing that column.  Should only be run after fixColumn. It leaves
- * Karel facing to the right so that the first "while (frontIsClear() )"
+ * fixing that column.  Should only be run after fixColumn(). It leaves
+ * Karel facing east so that the "while (frontIsClear() )"
  * can be checked.
  */	
 
@@ -55,7 +56,8 @@ private void returnToBottom() {
 	
 }
 /*
- * gotoNextColumn() moves Karel to the next column.
+ * gotoNextColumn() moves Karel to the next column.  
+ * Use only after returnToBottom().
  */	
 
 private void gotoNextColumn() {

@@ -27,18 +27,22 @@ public void run() {
  * singleAvenueWorldSolution()
  */
 private void singleAvenueWorldSolution() {
-	turnLeft();
+	if (leftIsClear() ) {
+		turnLeft();
 	addCheckerboard();
+	}
 }
 
 /*
  * singleAvenueWorldSolution()
  */
 private void twoAvenueWorldSolution() {
-	singleAvenueWorldSolution();
+	turnLeft();
+	addCheckerboard();
 	turnRight();
 	move();
 	turnRight();
+	move();
 }
 /*
  * allWorldSolution()

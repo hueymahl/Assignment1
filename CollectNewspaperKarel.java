@@ -12,6 +12,6 @@ import stanford.karel.*;
 
 public class CollectNewspaperKarel extends SuperKarel {
 	
-	// You fill in this part
+	
 	
 }

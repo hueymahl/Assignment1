@@ -19,7 +19,8 @@ public void run() {
 		if (frontIsBlocked() ) {
 				twoAvenueWorldSolution();
 		}else
-		returnToStart();	
+		returnToStart();
+		turnAround();
 		allWorldSolution();
 	}	
 

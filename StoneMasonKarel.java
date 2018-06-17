@@ -4,7 +4,7 @@
  * The StoneMasonKarel subclass "fixes" broken columns in a world.  
  * Karel always starts in first street, facing east, on Avenue 1.  
  * Avenue 1 always has a column to fix.  If there are other columns, 
- * they are exactly 4 
+ * they are exactly 4 units apart.
  */
 
 import stanford.karel.*;

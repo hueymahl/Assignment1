@@ -13,7 +13,6 @@ public class CheckerboardKarel extends SuperKarel {
 
 public void run() {
 	addCheckerboard();
-	checkForTop();
 	gotoNextRow();
 	
 }

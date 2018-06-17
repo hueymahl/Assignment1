@@ -66,6 +66,7 @@ private void gotoNextRow() {
 			turnRight();
 			if (frontIsClear() ) {
 				move();
+				turnLeft();
 			}else {
 				turnLeft();
 				if (frontIsClear() ) {
@@ -74,7 +75,9 @@ private void gotoNextRow() {
 			}
 		}else {
 		move();
-		turnRight();
+/*		turnRight();
+ * 
+ */
  
 		}
 	}

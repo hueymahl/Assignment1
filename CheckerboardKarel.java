@@ -65,7 +65,6 @@ private void gotoNextRow() {
 				turnRight();
 				move();
 			}else {
-				
 				if (frontIsClear() ) {
 					move();
 					turnRight();

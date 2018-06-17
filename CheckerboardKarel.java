@@ -36,7 +36,6 @@ private void allWorldSolution() {
 	returnToStart();
 	gotoNextRow();
 	while (frontIsClear() ) {
-		turnRight();
 		addCheckerboard();
 		returnToStart();
 		gotoNextRow();

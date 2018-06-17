@@ -28,6 +28,8 @@ public void run() {
 
 /*
  * singleAvenueWorldSolution()
+ * This is a one-off solution that basically rotates the allWorldSolution
+ * 90 degs and manually applies it once
  */
 private void singleAvenueWorldSolution() {	
 	turnLeft();
@@ -35,7 +37,9 @@ private void singleAvenueWorldSolution() {
 }
 
 /*
- * twoAvenueWorldSolution()
+ * twoAvenueWorldSolution()s
+ * Like the singleAvenueWorldSolution, we are rotating the allWorldSolution 
+ * 90 degs and manually applying it to 
  */
 private void twoAvenueWorldSolution() {
 	turnLeft();

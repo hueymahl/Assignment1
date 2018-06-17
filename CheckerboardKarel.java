@@ -26,8 +26,8 @@ public void run() {
  */
 
 private void addCheckerboard() {
-	putBeeper();
 	while (frontisClear() ) {
+		putBeeper();
 		move();
 		if (frontisClear() ) {
 			move();

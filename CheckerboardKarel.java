@@ -17,10 +17,8 @@ public void run() {
 	while (frontIsClear(() ) {
 		gotoNextRow();
 		addCheckerboard();
-		
+		checkForEnd();
 	}
-	
-	
 }
 
 /*

@@ -40,7 +40,7 @@ private void singleAvenueWorldSolution() {
 private void twoAvenueWorldSolution() {
 	turnLeft();
 	addCheckerboard();
-	turnRight();
+	turnLeft();
 	move();
 	if (rightIsClear() ) {
 		turnRight();

@@ -54,7 +54,7 @@ private void twoAvenueWorldSolution() {
  * it resets Karel on the far left after each street is complete
  */
 
-private void allWorldSolution()
+private void allWorldSolution() {
 	while (frontIsClear() ) {
 		addCheckerboard();
 		returnToStart();

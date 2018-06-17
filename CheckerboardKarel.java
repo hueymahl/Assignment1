@@ -47,9 +47,7 @@ private void returnToStart() {
 	turnAround();
 	while (frontIsClear() ) {
 		move();
-	}
-	turnRight();
-		
+	}	
 }
 
 /*

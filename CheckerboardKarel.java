@@ -16,6 +16,7 @@ public void run() {
 	returnToStart();
 	while (frontIsClear() ) {
 		gotoNextRow();
+		checkEvenOdd();
 		addCheckerboard();
 		returnToStart();
 	}
@@ -66,6 +67,15 @@ private void gotoNextRow() {
 		move();
 		turnRight();
 	}
+}
+
+/*
+ * checkEvenOdd()
+ * 
+ */
+
+private void checkEvenOdd() {
+	
 }
 }
 

@@ -39,7 +39,8 @@ private void singleAvenueWorldSolution() {
 /*
  * twoAvenueWorldSolution()s
  * Like the singleAvenueWorldSolution, we are rotating the allWorldSolution 
- * 90 degs and manually applying it to 
+ * 90 degs and manually applying it.  We start with it offset on corner so
+ * the final solution has a beeper in position 1x1
  */
 private void twoAvenueWorldSolution() {
 	turnLeft();
@@ -48,9 +49,12 @@ private void twoAvenueWorldSolution() {
 }
 /*
  * allWorldSolution()
+ * After elimination of the two edge cases (singleAvenue and twoAvenue)
+ * allWold adds a checkerboard stret0by-street.  To keep orientation,
+ * it resets Karel on the far left after each street is complete
  */
 
-private void allWorldSolution() {
+private void allWorldSolution()
 	while (frontIsClear() ) {
 		addCheckerboard();
 		returnToStart();
@@ -59,6 +63,9 @@ private void allWorldSolution() {
 }
 /*
  * addCheckerboard()
+ * addCheckerboard will always place a beeper where Karel starts. It will
+ * then move forward twice and add another beeper, so long as the front is
+ * clear.
  */
 
 private void addCheckerboard() {
@@ -75,6 +82,8 @@ private void addCheckerboard() {
 
 /*
  * returnToStart()
+ * This simply moves Karel back to the beginning of the street where Karel
+ * started.
  */
 	
 private void returnToStart() {
@@ -86,6 +95,12 @@ private void returnToStart() {
 
 /*
  * gotoNextRow()
+ * This is a nested conditional tree.
+ * The first condition tests if the world has ended. If so, Karel spins
+ * around in victory (also leaving Karel in direction orignally pointed 
+ * to kill the while loop).
+ * The second condition is designed to offset the start of the next 
+ * addCheckerboard routine so the beepers are properly lined up.
  */
 
 private void gotoNextRow() {

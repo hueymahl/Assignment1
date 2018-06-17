@@ -32,6 +32,7 @@ public class CollectNewspaperKarel extends SuperKarel {
 	 */
 	private void pickupnewspaper() {
 		pickBeeper();
+		turnAround();
 		
 	}
 }

@@ -26,11 +26,9 @@ public void run() {
 /*
  * singleAvenueWorldSolution()
  */
-private void singleAvenueWorldSolution() {
-	if (leftIsClear() ) {
-		turnLeft();
+private void singleAvenueWorldSolution() {	
+	turnLeft();
 	addCheckerboard();
-	}
 }
 
 /*

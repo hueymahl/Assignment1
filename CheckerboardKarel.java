@@ -39,14 +39,7 @@ private void singleAvenueWorldSolution() {
  */
 private void twoAvenueWorldSolution() {
 	turnLeft();
-	addCheckerboard();
-	turnLeft();
-	move();
-	if (leftIsClear() ) {
-		turnLeft();
-		move();
-		addCheckerboard();
-	}
+	allWorldSolution();
 }
 /*
  * allWorldSolution()

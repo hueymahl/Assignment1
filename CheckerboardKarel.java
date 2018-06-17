@@ -82,6 +82,9 @@ private void gotoNextRow() {
 		move();
 		turnRight();
 		move();
+		if (frontIsBlocked() ) {
+			twoAvenueWorldSolution();
+		}
 	}else {
 		turnRight();
 		move();

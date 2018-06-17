@@ -56,7 +56,6 @@ private void returnToStart() {
  */
 
 private void gotoNextRow() {
-	checkEvenOdd();
 	if (beepersPresent() ) {
 		move();
 		turnRight();

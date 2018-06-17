@@ -35,7 +35,7 @@ private void singleAvenueWorldSolution() {
  * singleAvenueWorldSolution()
  */
 private void twoAvenueWorldSolution() {
-	singleAvenueWorldSolution();;
+	singleAvenueWorldSolution();
 	turnRight();
 	move();
 	turnRight();

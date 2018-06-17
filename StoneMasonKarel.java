@@ -57,11 +57,8 @@ private void returnToBottom() {
  */	
 
 private void gotoNextColumn() {
-	if (frontIsClear() ) {
 		for (int i = 0; i < 4; i++) {
 	}
 		move();
 	}
-	turnLeft();
-}
 }

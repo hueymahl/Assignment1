@@ -35,17 +35,10 @@ private void singleAvenueWorldSolution() {
  * singleAvenueWorldSolution()
  */
 private void twoAvenueWorldSolution() {
-	while (leftIsClear() ) {if (rightIsClear() ) {
-		
-	}
-	returnToStart();
-	if (rightIsBlocked() ) {
-		turnAround();
-		turnAround();
-	}else {
-		turnRight();
-		move();
-	}
+	singleAvenueWorldSolution();;
+	turnRight();
+	move();
+	turnRight();
 }
 /*
  * allWorldSolution()

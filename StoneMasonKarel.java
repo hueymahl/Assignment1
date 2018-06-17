@@ -53,4 +53,7 @@ private void returnToBottom() {
  * gotoNextColumn() moves Karel to the next column.
  */	
 
+private void gotoNextColumn() {
+	move
+}
 }

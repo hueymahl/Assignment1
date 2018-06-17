@@ -39,6 +39,7 @@ private void singleAvenueWorldSolution() {
  */
 private void twoAvenueWorldSolution() {
 	turnLeft();
+	move();
 	allWorldSolution();
 }
 /*

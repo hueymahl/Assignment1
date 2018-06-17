@@ -32,6 +32,7 @@ private void fixColumn() {
 			putBeeper();
 		}
 		}
+	
 	}
 }
 }

@@ -18,10 +18,11 @@ public void run() {
 		move();
 		if (frontIsBlocked() ) {
 			twoAvenueWorldSolution();
-		}else
+		}else {
 		returnToStart();
 		turnAround();
 		allWorldSolution();
+		}
 	}
 	}	
 

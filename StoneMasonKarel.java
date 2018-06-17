@@ -49,6 +49,8 @@ private void returnToBottom() {
 	turnLeft();
 	
 }
-
+/*
+ * gotoNextColumn() moves Karel to the next column.
+ */	
 
 }

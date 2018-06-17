@@ -63,8 +63,8 @@ private void gotoNextRow() {
 		if (beepersPresent() ) {
 			move();
 			turnRight();
-		if (frontIsClear() ) {
-			move();
+			if (frontIsClear() ) {
+				move();
 		}
 	}else {
 		move();

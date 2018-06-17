@@ -71,25 +71,16 @@ private void returnToStart() {
  */
 
 private void gotoNextRow() {
-	if (rightIsBlocked() ) {
-		turnAround();
-		turnAround();
+	if (beepersPresent() ) {
+		turnRight();
+		move();
 	}else {
-		if (beepersPresent() ) {
-			turnRight();
-			move();
-			if (rightIsClear() ) {
-				turnRight();
-				move();
-				turnLeft();
-			}
-		}else {
-			turnRight();
-			move();
-			}
-			}
+		turnRight();
+		move();
+	}
 }
 }
+
 
 
 

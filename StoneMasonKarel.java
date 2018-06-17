@@ -42,5 +42,10 @@ private void fixColumn() {
 
 private void returnToBottom() {
 	turnAround();
+	while (frontIsClear() ) {
+		move()
+	}
+	turnLeft();
+	
 }
 }

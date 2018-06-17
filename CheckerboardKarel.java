@@ -59,7 +59,7 @@ private void returnToStart() {
 private void gotoNextRow() {
 	if (frontIsBlocked() ) {
 		turnLeft();
-	}else
+	}else {
 		if (beepersPresent() ) {
 			move();
 			turnRight();
@@ -70,6 +70,7 @@ private void gotoNextRow() {
 		move();
 		turnRight();
 		}
+	}
 }
 
 /*

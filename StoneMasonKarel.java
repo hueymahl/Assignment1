@@ -29,9 +29,9 @@ public class StoneMasonKarel extends SuperKarel {
 
 private void fixColumn() {
 	turnLeft();
-	if (noBeepersPresent() ) {
-		putBeeper();
-	}else {
+	if (beepersPresent() ) {
+		move();
+	}else {putBeepers();
 	while (frontIsClear() ) {
 		move();
 		if (noBeepersPresent() ) {

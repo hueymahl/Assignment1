@@ -42,8 +42,8 @@ private void twoAvenueWorldSolution() {
 	addCheckerboard();
 	turnLeft();
 	move();
-	if (rightIsClear() ) {
-		turnRight();
+	if (leftIsClear() ) {
+		turnLeft();
 		move();
 		addCheckerboard();
 	}

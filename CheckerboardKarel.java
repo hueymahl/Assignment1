@@ -32,7 +32,7 @@ private void singleAvenueWorldSolution() {
 }
 
 /*
- * singleAvenueWorldSolution()
+ * twoAvenueWorldSolution()
  */
 private void twoAvenueWorldSolution() {
 	turnLeft();

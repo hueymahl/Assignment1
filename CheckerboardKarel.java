@@ -31,8 +31,11 @@ private void addCheckerboard() {
 	
 	while (frontIsClear() ) {
 		move();
-		move();
-		putBeeper();
+		if (frontIsClear() ) {
+			move();
+			putBeeper();
+		}
+		
 		}
 	}
 

@@ -16,7 +16,6 @@ public void run() {
 	returnToStart();
 	while (frontIsClear() ) {
 		gotoNextRow();
-		checkEvenOdd();
 		addCheckerboard();
 		returnToStart();
 	}
@@ -57,6 +56,7 @@ private void returnToStart() {
  */
 
 private void gotoNextRow() {
+	checkEvenOdd();
 	if (beepersPresent() ) {
 		move();
 		turnRight();

@@ -15,6 +15,7 @@ public class StoneMasonKarel extends SuperKarel {
 		fixColumn();
 		while (frontIsClear() )
 			fixColumn();
+			returnToBottom();
 			gotoNextColumn();
 	}
 
@@ -34,7 +35,6 @@ private void fixColumn() {
 			putBeeper();
 		}
 		}
-	returnToBottom();
 	}
 }	
 /*

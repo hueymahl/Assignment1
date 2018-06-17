@@ -28,11 +28,16 @@ public class CollectNewspaperKarel extends SuperKarel {
 		move();
 	}
 	/*
-	 * Walks Karel to his door in fixed world
+	 * Karel picks up newspaper and turns around
 	 */
 	private void pickupnewspaper() {
 		pickBeeper();
 		turnAround();
+	}
+	/*
+	 * Karel goes back to starting point
+	 */
+	private void returntostart() {
 		
 	}
 }

@@ -41,6 +41,6 @@ private void fixColumn() {
  */	
 
 private void returnToBottom() {
-	
+	turnAround();
 }
 }

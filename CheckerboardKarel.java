@@ -34,8 +34,7 @@ private void addCheckerboard() {
 		if (frontIsClear() ) {
 			move();
 			putBeeper();
-		}
-		
+		}	
 		}
 	}
 

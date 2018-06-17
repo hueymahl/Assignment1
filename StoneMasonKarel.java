@@ -31,13 +31,18 @@ private void fixColumn() {
 	turnLeft();
 	if (noBeepersPresent() ) {
 		putBeeper();
-		}else {while (frontIsClear() ) {
-		move();
-		if (noBeepersPresent() ) {
+		{while (frontIsClear() ) {
+			move();
+			if (noBeepersPresent() ) {
+				putBeeper();
+			}
+			} else {while (frontIsClear() ) {
+			move();
+			if (noBeepersPresent() ) {
 			putBeeper();
+			}
 		}
 		}
-	}
 }	
 /*
  * returnToBottom() moves Karel back to the bottom of a column after

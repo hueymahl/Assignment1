@@ -15,7 +15,6 @@ public void run() {
 	if(frontIsBlocked() ) {
 		singleAvenueWorldSolution();	
 	}else {
-		turnLeft();
 		allWorldSolution();
 	}	
 }

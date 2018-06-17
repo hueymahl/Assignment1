@@ -82,7 +82,6 @@ private void gotoNextRow() {
 		move();
 		turnRight();
 		move();
-		turnLeft();
 	}else {
 		turnRight();
 		move();

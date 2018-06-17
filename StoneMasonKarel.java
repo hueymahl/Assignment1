@@ -23,6 +23,8 @@ public class StoneMasonKarel extends SuperKarel {
  */
 
 private void fixColumn() {
-	if (beepers )
+	if (beepersPresent() ) {
+		
+	}
 }
 }

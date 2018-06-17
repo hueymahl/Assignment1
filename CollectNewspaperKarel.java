@@ -17,7 +17,8 @@ public class CollectNewspaperKarel extends SuperKarel {
 		returntostart()
 	}
 /*
- * Walks Karel to the door in fixed world
+ * Walks Karel to his door in fixed world
  */
-	
+	private void gotodoor() {
+		
 }

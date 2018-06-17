@@ -12,13 +12,26 @@ import stanford.karel.*;
 
 public class CollectNewspaperKarel extends SuperKarel {
 	public void run() {
-		gotodoor()
-		pickupnewspaper()
-		returntostart()
+		gotodoor();
+		pickupnewspaper();
+		returntostart();
 	}
 /*
  * Walks Karel to his door in fixed world
  */
 	private void gotodoor() {
+		move();
+		move();
+		turnRight();
+		move();
+		turnLeft();
+		move();
+	}
+	/*
+	 * Walks Karel to his door in fixed world
+	 */
+	private void pickupnewspaper() {
+		pickBeeper();
 		
+	}
 }

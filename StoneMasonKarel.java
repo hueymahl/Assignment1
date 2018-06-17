@@ -34,5 +34,13 @@ private void fixColumn() {
 		}
 	returnToBottom();
 	}
+}	
+/*
+ * returnToBottom() moves Karel back to the bottom of a column after
+ * fixing that column.
+ */	
+
+private void returnToBottom() {
+	
 }
 }

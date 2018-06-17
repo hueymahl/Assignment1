@@ -69,7 +69,7 @@ private void gotoNextRow() {
 				turnLeft();
 				if (frontIsClear() ) {
 					move();
-					turnRight()
+					turnRight();
 				}
 			}
 		}else {

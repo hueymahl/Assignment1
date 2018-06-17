@@ -70,23 +70,15 @@ private void gotoNextRow() {
 				turnLeft();
 			}
 		}else {
+			turnRight();
+			move();
 			if (frontIsClear() ) {
 				move();
 				}
 			}
-		}else {
-		turnRight();
-		move();
 		}
 	}
-}
 
-/*
- * checkEvenOdd()
- * 
- */
-
-private void checkEvenOdd() {
 	
 }
 }

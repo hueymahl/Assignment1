@@ -13,8 +13,16 @@ import stanford.karel.*;
 public class StoneMasonKarel extends SuperKarel {
 	public void run() {
 		fixColumn();
+		gotoNextColumn();
 	}
 
-	// You fill in this part
+/*
+ * fixColumn() should be used only after Karel has moved to the bottom
+ * of a column. Once in place, he checks to see if a beeper is missing.
+ * If one is, he replaces it. If one is not, he skips ahead until done
+ */
 
+private void fixColumn() {
+	
+}
 }

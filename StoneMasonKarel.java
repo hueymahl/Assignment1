@@ -59,7 +59,7 @@ private void returnToBottom() {
 
 private void gotoNextColumn() {
 		for (int i = 0; i < 4; i++) {
-	}
 		move();
 	}
+}
 }

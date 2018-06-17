@@ -14,7 +14,7 @@ public class CheckerboardKarel extends SuperKarel {
 public void run() {
 	if(frontIsBlocked() ) {
 		singleAvenueWorldSolution();	
-	}else
+	}else {
 		move();
 		if (frontIsBlocked() ) {
 			twoAvenueWorldSolution();
@@ -22,6 +22,7 @@ public void run() {
 		returnToStart();
 		turnAround();
 		allWorldSolution();
+	}
 	}	
 
 /*

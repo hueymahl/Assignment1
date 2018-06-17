@@ -28,7 +28,6 @@ public void run() {
  */
 
 private void addCheckerboard() {
-	turnRight();
 	putBeeper();
 	
 	while (frontIsClear() ) {
@@ -66,19 +65,16 @@ private void gotoNextRow() {
 			turnRight();
 			if (frontIsClear() ) {
 				move();
-				turnLeft();
 			}else {
 				turnLeft();
 				if (frontIsClear() ) {
 					move();
+					turnRight()
 				}
 			}
 		}else {
 		move();
-/*		turnRight();
- * 
- */
- 
+		turnRight();
 		}
 	}
 }

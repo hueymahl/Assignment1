@@ -85,6 +85,7 @@ private void gotoNextRow() {
 	}else {
 		turnRight();
 		move();
+		turnRight();
 	}
 	}
 }

@@ -36,7 +36,6 @@ private void allWorldSolution() {
 		addCheckerboard();
 		returnToStart();
 		gotoNextRow();
-		turnRight();
 	}
 }
 /*
@@ -74,9 +73,12 @@ private void gotoNextRow() {
 	if (beepersPresent() ) {
 		turnRight();
 		move();
+		turnRight();
+		move();
 	}else {
 		turnRight();
 		move();
+		turnRight();
 	}
 }
 }

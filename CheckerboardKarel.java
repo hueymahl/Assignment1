@@ -13,13 +13,30 @@ public class CheckerboardKarel extends SuperKarel {
 
 public void run() {
 	if(frontIsBlocked() ) {
-		oneWideWorldSolution();
+		singleAvenueWorldSolution();
 		
 	}else {
-		addCheckerboard();
-		returnToStart();
-		gotoNextRow();
-		turnRight();
+		allWorldSolution();
+	}	
+}
+
+/*
+ * singleAvenueWorldSolution()
+ */
+private void singleAvenueWorldSolution() {
+	turnLeft();
+	addCheckerboard();
+}
+
+/*
+ * allWorldSolution()
+ */
+
+private void allWorldSolution() {
+	addCheckerboard();
+	returnToStart();
+	gotoNextRow();
+	turnRight();
 	while (frontIsClear() ) {
 		addCheckerboard();
 		returnToStart();
@@ -27,15 +44,6 @@ public void run() {
 		turnRight();
 	}
 }
-
-/*
- * oneWideWorldSolution()
- */
-private void oneWideWorldSolution() {
-	turnLeft();
-	addCheckerboard();
-}
-
 /*
  * addCheckerboard()
  */

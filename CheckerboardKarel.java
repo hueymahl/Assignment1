@@ -74,7 +74,9 @@ private void gotoNextRow() {
 			}
 		}else {
 		move();
-		turnRight();
+/*		turnRight();
+ * 
+ */
 		}
 	}
 }

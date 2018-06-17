@@ -57,7 +57,10 @@ private void returnToStart() {
  */
 
 private void gotoNextRow() {
-	if (beepersPresent() ) {
+	if (frontIsBlocked() ) {
+		turnRight();
+		if (beepersPresent() ) {
+	}
 		move();
 		turnRight();
 		if (frontIsClear() ) {

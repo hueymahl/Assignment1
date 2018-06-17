@@ -31,6 +31,7 @@ private void fixColumn() {
 	turnLeft();
 	if (noBeepersPresent() ) {
 		putBeeper();
+	}else {
 	while (frontIsClear() ) {
 		move();
 		if (noBeepersPresent() ) {

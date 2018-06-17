@@ -72,15 +72,11 @@ private void gotoNextRow() {
 		}else {
 			turnRight();
 			move();
-			if (frontIsClear() ) {
-				move();
-				}
 			}
-		}
-	}
-
-	
+			}
 }
+}
+
 
 
 

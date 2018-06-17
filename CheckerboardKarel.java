@@ -53,7 +53,14 @@ private void returnToStart() {
  */
 
 private void gotoNextRow() {
-	if 
+	if (beepersPresent() ) {
+		move();
+		turnRight();
+	}else {
+		move();
+		turnRight();
+		move();
+	}
 }
 }
 

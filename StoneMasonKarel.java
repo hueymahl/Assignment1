@@ -14,6 +14,7 @@ public class StoneMasonKarel extends SuperKarel {
 	public void run() {
 		turnLeft();
 		fixColumn();
+		while (frontIsClear() )
 		gotoNextColumn();
 	}
 

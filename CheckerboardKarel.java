@@ -39,8 +39,11 @@ private void twoAvenueWorldSolution() {
 	addCheckerboard();
 	turnRight();
 	move();
-	turnRight();
-	move();
+	if (rightIsClear() ) {
+		turnRight();
+		move();
+		addCheckerboard();
+	}
 }
 /*
  * allWorldSolution()

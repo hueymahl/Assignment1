@@ -34,8 +34,9 @@ private void addCheckerboard() {
 			move();
 		}
 	}
+	
+	
 	private void checkForEnd() {
-		// TODO Auto-generated method stub
 		
 	}
 	}

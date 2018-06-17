@@ -15,6 +15,10 @@ public void run() {
 	if(frontIsBlocked() ) {
 		singleAvenueWorldSolution();	
 	}else {
+		move();
+		if (frontIsBlocked() ) {
+				twoAvenueWorldSolution();
+		}else
 		allWorldSolution();
 	}	
 }
@@ -28,13 +32,18 @@ private void singleAvenueWorldSolution() {
 }
 
 /*
+ * singleAvenueWorldSolution()
+ */
+private void twoAvenueWorldSolution() {
+	addCheckerboard();
+	returnToStart();
+	
+}
+/*
  * allWorldSolution()
  */
 
 private void allWorldSolution() {
-	addCheckerboard();
-	returnToStart();
-	gotoNextRow();
 	while (frontIsClear() ) {
 		addCheckerboard();
 		returnToStart();
@@ -82,9 +91,6 @@ private void gotoNextRow() {
 		move();
 		turnRight();
 		move();
-		if (frontIsBlocked() ) {
-			twoAvenueWorldSolution();
-		}
 	}else {
 		turnRight();
 		move();

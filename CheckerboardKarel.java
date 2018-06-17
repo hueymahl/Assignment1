@@ -2,8 +2,10 @@
  * File: CheckerboardKarel.java
  * ----------------------------
  * CheckerboardKarel has one universal solution (allWorldSolution()) and
- * two edge cases, singleAvenue.
- */
+ * two edge cases, singleAvenueWorldSolution and twoAvenueWorldSolution.
+ * Note that the twoAvenueWorldSolution addresses a world that is not part
+ * of the base worlds provided.
+ *
 
 import stanford.karel.*;
 

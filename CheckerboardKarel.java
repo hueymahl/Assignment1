@@ -37,7 +37,13 @@ private void singleAvenueWorldSolution() {
 private void twoAvenueWorldSolution() {
 	addCheckerboard();
 	returnToStart();
-	
+	if (rightIsBlocked() ) {
+		turnAround();
+		turnAround();
+	}else {
+		turnRight();
+		move();
+	}
 }
 /*
  * allWorldSolution()

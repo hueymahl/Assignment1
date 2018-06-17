@@ -16,4 +16,13 @@ public void run() {
 	gotoNextRow():
 }
 
+/*
+ * addCheckerboard()
+ */
+
+private void addCheckerboard() {
+	while (frontisClear() ) {
+		
+	}
+}
 }

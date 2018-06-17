@@ -38,6 +38,9 @@ public class CollectNewspaperKarel extends SuperKarel {
 	 * Karel goes back to starting point
 	 */
 	private void returntostart() {
+		move();
+		move();
+		move();
 		
 	}
 }

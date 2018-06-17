@@ -60,7 +60,6 @@ private void gotoNextRow() {
 	if (beepersPresent() ) {
 		move();
 		turnRight();
-		
 	}else {
 		move();
 		turnRight();

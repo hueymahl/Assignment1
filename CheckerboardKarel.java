@@ -12,7 +12,7 @@ import stanford.karel.*;
 public class CheckerboardKarel extends SuperKarel {
 
 public void run() {
-	if(rightIsBlocked() ) {
+	if(frontIsBlocked() ) {
 		turnLeft();
 		addCheckerboard();
 	}else

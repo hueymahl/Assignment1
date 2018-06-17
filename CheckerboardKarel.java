@@ -33,6 +33,7 @@ private void singleAvenueWorldSolution() {
 
 private void allWorldSolution() {
 	while (frontIsClear() ) {
+		turnRight);
 		addCheckerboard();
 		returnToStart();
 		gotoNextRow();

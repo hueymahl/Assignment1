@@ -14,10 +14,11 @@ public class CheckerboardKarel extends SuperKarel {
 public void run() {
 	addCheckerboard();
 	returnToStart();
+	gotoNextRow();
 	while (frontIsClear() ) {
-		gotoNextRow();
 		addCheckerboard();
 		returnToStart();
+		gotoNextRow();
 	}
 }
 

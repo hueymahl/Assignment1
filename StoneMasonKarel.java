@@ -54,6 +54,9 @@ private void returnToBottom() {
  */	
 
 private void gotoNextColumn() {
-	move
+	for (int i = 0; i < 4; i++) {
+		move();
+	}
+	turnLeft();
 }
 }

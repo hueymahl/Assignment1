@@ -39,7 +39,9 @@ private void fixColumn() {
 }	
 /*
  * returnToBottom() moves Karel back to the bottom of a column after
- * fixing that column.
+ * fixing that column.  Should only be run after fixColumn. It leaves
+ * Karel facing to the right so that the first "while (frontIsClear() )"
+ * can be checked.
  */	
 
 private void returnToBottom() {

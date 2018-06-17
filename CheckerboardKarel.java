@@ -21,18 +21,23 @@ public void run() {
 	}
 }
 
+
 /*
  * addCheckerboard()
  */
 
 private void addCheckerboard() {
-	while (frontisClear() ) {
+	while (frontIsClear() ) {
 		putBeeper();
 		move();
-		if (frontisClear() ) {
+		if (frontIsClear() ) {
 			move();
 		}
-		putBeeper;
 	}
-}
+	private void checkForEnd() {
+		// TODO Auto-generated method stub
+		
+	}
+	}
+
 }

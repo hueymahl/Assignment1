@@ -12,11 +12,13 @@ import stanford.karel.*;
 public class CheckerboardKarel extends SuperKarel {
 
 public void run() {
-	putBeeper();
+	addCheckerboard();
+	turnLeft()
 	while (frontIsClear(() ) {
+		gotoNextRow();
 		addCheckerboard();
 	}
-	gotoNextRow();
+	
 	
 }
 

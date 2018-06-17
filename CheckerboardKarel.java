@@ -16,7 +16,7 @@ public void run() {
 	returnToStart();
 	gotoNextRow();
 	while (frontIsClear() ) {
-		turnRigh();
+		turnRight();
 		addCheckerboard();
 		returnToStart();
 		gotoNextRow();

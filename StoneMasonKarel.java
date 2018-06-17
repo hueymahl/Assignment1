@@ -13,9 +13,9 @@ import stanford.karel.*;
 public class StoneMasonKarel extends SuperKarel {
 	public void run() {
 		turnLeft();
-		fixColumn();
 		while (frontIsClear() )
-		gotoNextColumn();
+			fixColumn();
+			gotoNextColumn();
 	}
 
 /*
@@ -44,9 +44,11 @@ private void fixColumn() {
 private void returnToBottom() {
 	turnAround();
 	while (frontIsClear() ) {
-		move()
+		move();
 	}
 	turnLeft();
 	
 }
+
+
 }

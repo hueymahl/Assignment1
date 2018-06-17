@@ -34,11 +34,19 @@ private void addCheckerboard() {
 			move();
 		}
 	}
-	
-	
-	private void checkForEnd() {
-		
-	}
-	}
-
 }
+/*
+ * returnToStart()
+ */
+	
+private void returnToStart() {
+	turnAround();
+	while (frontIsClear() ) {
+		move();
+	}
+	turnRight();
+		
+}
+}
+
+

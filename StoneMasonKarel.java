@@ -11,7 +11,9 @@
 import stanford.karel.*;
 
 public class StoneMasonKarel extends SuperKarel {
-	public void 
+	public void run() {
+		
+	}
 
 	// You fill in this part
 

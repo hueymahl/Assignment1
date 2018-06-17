@@ -15,11 +15,12 @@ public void run() {
 	addCheckerboard();
 	returnToStart();
 	gotoNextRow();
+	turnRight();
 	while (frontIsClear() ) {
-		turnRight();
 		addCheckerboard();
 		returnToStart();
 		gotoNextRow();
+		turnRight();
 	}
 }
 

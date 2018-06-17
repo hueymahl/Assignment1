@@ -58,6 +58,8 @@ private void returnToStart() {
 
 private void gotoNextRow() {
 	if (rightIsBlocked() ) {
+		turnAround();
+		turnAround();
 	}else {
 		if (beepersPresent() ) {
 			turnRight();

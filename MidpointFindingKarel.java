@@ -15,8 +15,11 @@ import stanford.karel.*;
 public class MidpointFindingKarel extends SuperKarel {
 
 public void run() {
-	
+	map1stStreet();
+	removeEndBeepers();
+	markMidpoint();
 	
 }
 
+private void run() {
 }

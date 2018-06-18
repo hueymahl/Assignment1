@@ -21,5 +21,10 @@ public void run() {
 	
 }
 
-private void run() {
+private void map1stStreet() {
+	
+	
+}
+
+
 }

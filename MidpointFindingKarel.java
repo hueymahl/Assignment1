@@ -5,6 +5,9 @@
  * of First Street and then having Karel remove a beacon from alternating
  * ends until he reaches the middle. Once he reaches the middle, he marks
  * it with a beacon and retreats to the side of the world.
+ * 
+ * Note that this same process can be used to find the middle of the whole
+ * by turning Karel vertical after he finds the horizontal midpoint
  */
 
 import stanford.karel.*;

@@ -32,6 +32,7 @@ private void map1stStreet() {
 private void removeEndBeepers() {
 	turnAround();
 	if (beepersPresent() ) {
+		pickBeeper();
 		
 	}
 }

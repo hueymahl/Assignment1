@@ -22,8 +22,11 @@ public void run() {
 }
 
 private void map1stStreet() {
-	
-	
+	while frontIsClear() ) {
+		putBeeper();
+		move();
+	}
+	putBeeper();	
 }
 
 

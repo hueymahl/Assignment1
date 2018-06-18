@@ -48,6 +48,6 @@ private void moveToOtherSide() {
 }
 
 private void markMidpoint() {
-	
+	place
 }
 }

@@ -14,6 +14,9 @@ import stanford.karel.*;
 
 public class MidpointFindingKarel extends SuperKarel {
 
-run 
+public void run() {
+	
+	
+}
 
 }

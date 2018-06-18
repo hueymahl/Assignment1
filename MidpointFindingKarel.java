@@ -48,7 +48,9 @@ private void removeEndBeepers() {
 }
 
 /*
- *moveToOtherSide()  
+ *moveToOtherSide() moves Karel to the other side of the beepers and positions
+ *him on top of the last beeper in line.  Note the else statement is a special
+ *use case that applies only the first time 
  */
 
 private void moveToOtherSide() {

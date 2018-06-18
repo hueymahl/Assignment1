@@ -33,6 +33,7 @@ private void map1stStreet() {
 private void removeEndBeepers() {
 	while (beepersPresent() ) {
 		pickBeeper();
+		move();
 		moveToOtherSide();	
 	}
 		

@@ -37,3 +37,7 @@ private void removeEndBeepers() {
 		
 	}
 }
+
+private void moveToOtherSide() {
+	
+}

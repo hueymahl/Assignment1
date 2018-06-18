@@ -34,9 +34,8 @@ private void removeEndBeepers() {
 	while (beepersPresent() ) {
 		pickBeeper();
 		moveToOtherSide();	
-	}else {
-		
 	}
+		
 }
 
 private void moveToOtherSide() {
@@ -46,4 +45,9 @@ private void moveToOtherSide() {
 			turnAround();
 		}
 	move();
+}
+
+private void markMidpoint() {
+	
+}
 }

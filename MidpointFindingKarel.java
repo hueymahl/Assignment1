@@ -50,7 +50,8 @@ private void removeEndBeepers() {
 /*
  *moveToOtherSide() moves Karel to the other side of the beepers and positions
  *him on top of the last beeper in line.  Note the else statement is a special
- *use case that applies only the first time 
+ *use case that applies only the first time it is run (it picks up the beeper
+ *at the corner of 1st Avenue and 1st Street). 
  */
 
 private void moveToOtherSide() {
@@ -65,6 +66,10 @@ private void moveToOtherSide() {
 		}
 	move();
 }
+
+/*
+ * markMidpoint()
+ */
 
 private void markMidpoint() {
 	putBeeper();

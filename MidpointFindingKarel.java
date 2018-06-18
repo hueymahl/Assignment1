@@ -7,7 +7,8 @@
  * it with a beacon and retreats to the side of the world.
  * 
  * Note that this same process can be used to find the middle of the whole
- * by turning Karel vertical after he finds the horizontal midpoint
+ * by turning Karel vertical after he finds the horizontal midpoint and 
+ * running, in order, map1stStreet(), removeEndBeepers() and markMidpoint().
  */
 
 import stanford.karel.*;

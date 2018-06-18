@@ -34,8 +34,10 @@ private void map1stStreet() {
 }
 
 /*
- * removeEndBeepers() picks up the beeper
+ * removeEndBeepers() picks up the beeper up on one end and then moves Karel
+ * to the other side.  This continues until there are no more beepers.
  */
+
 private void removeEndBeepers() {
 	while (beepersPresent() ) {
 		pickBeeper();
@@ -44,6 +46,10 @@ private void removeEndBeepers() {
 	}
 		
 }
+
+/*
+ *moveToOtherSide()  
+ */
 
 private void moveToOtherSide() {
 	while (beepersPresent() && frontIsClear() ) {

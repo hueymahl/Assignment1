@@ -40,7 +40,7 @@ private void removeEndBeepers() {
 }
 
 private void moveToOtherSide() {
-	while (beepersPresent() ) 
+	while (beepersPresent() ) {
 		move();
 		if (noBeepersPresent() ) {
 			turnAround();			
@@ -48,6 +48,7 @@ private void moveToOtherSide() {
 			pickBeeper();
 			turnAround();
 		}
+	}
 	move();
 }
 

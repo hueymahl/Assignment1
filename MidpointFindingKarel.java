@@ -44,6 +44,7 @@ private void moveToOtherSide() {
 		move();
 		if (noBeepersPresent() ) {
 			turnAround();
+			move();			
 		}
 	move();
 }

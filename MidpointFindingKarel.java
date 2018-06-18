@@ -43,8 +43,10 @@ private void moveToOtherSide() {
 	while (beepersPresent() ) 
 		move();
 		if (noBeepersPresent() ) {
+			turnAround();			
+		}else {
+			pickBeeper();
 			turnAround();
-			move();			
 		}
 	move();
 }

@@ -26,12 +26,12 @@ private void map1stStreet() {
 		putBeeper();
 		move();
 	}
-	putBeeper();	
+	putBeeper();
+	turnAround();
 }
 
 private void removeEndBeepers() {
 	while (beepersPresent() ) {
-		turnAround();
 		pickBeeper();
 		moveToOtherSide();
 		
@@ -39,5 +39,10 @@ private void removeEndBeepers() {
 }
 
 private void moveToOtherSide() {
-	
+	while (beepersPresent() ) 
+		move()
+		if (noBeepersPresent() ) {
+			turnAround();
+		}
+	move();
 }

@@ -68,7 +68,8 @@ private void moveToOtherSide() {
 }
 
 /*
- * markMidpoint()
+ * markMidpoint() puts a beeper down once the midpoint has been found and
+ * then moves karel off to the side.
  */
 
 private void markMidpoint() {

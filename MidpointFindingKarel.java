@@ -22,12 +22,13 @@ public void run() {
 }
 
 private void map1stStreet() {
-	while frontIsClear() ) {
+	while (frontIsClear() ) {
 		putBeeper();
 		move();
 	}
 	putBeeper();	
 }
 
-
+private void removeEndBeepers() {
+	
 }
